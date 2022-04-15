@@ -1,0 +1,40 @@
+a{
+  padding: 0 12px;
+  line-height: 62px;
+  min-height: 62px;
+  color: #8a8a8a;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  width: 100%;
+  padding: 0px;
+  z-index: 1040;
+  background-color: white;
+  border-bottom: 1px solid #e9eaec;
+  margin-bottom: 0px;
+}
+.topbar-left{
+  display: flex;
+
+}
+.topbar-right{
+  display: flex;
+}
+.topbar-left-icons{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.topbar-right-icons{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.profile-img {
+  width: 35px;
+  border-radius: 50%;
+  margin-top: 12px;
+  float: left;
+}
